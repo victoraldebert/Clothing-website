@@ -1,0 +1,79 @@
+/* //////////HEADER/////// */
+.banner-first {
+    height: 129px;
+    width: 1440px;
+    background-color: #e0e3e2;
+}
+
+.banner-second {
+    height: 462px;
+    width: 1440px;
+}
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.galerie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1300px;
+    margin: 40px auto 0;
+    /* margin: 70px auto 0; */
+}
+.item {
+    width: 360px;
+    height: 445px;
+    margin: 91px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item-info {
+    background-color:#e0e3e2;
+    width: 365px;
+    height: 87px;
+    margin: -4px;
+}
+
+.item-info-title {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 34px;
+    padding-top: 15px;
+}
+
+
+.item-info-price {
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 34px;
+    padding-top: 5px;
+}
+
+/* /////////FOOTER///////// */
+
+.footer-container {
+    margin-top: 50px;
+    height: 250px;
+    width: 1440px;
+    background-color: #e0e3e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
