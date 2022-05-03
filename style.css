@@ -3,6 +3,16 @@
     height: 129px;
     width: 1440px;
     background-color: #e0e3e2;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 30px;
+    font-weight:600;
+
+}
+.banner-first-title {
+    margin-left: 35px;
+    text-transform: uppercase;
 }
 
 .banner-second {
@@ -36,6 +46,7 @@ body {
     height: 445px;
     margin: 91px;
     overflow: hidden;
+    
     flex-shrink: 0;
 }
 .item img {
