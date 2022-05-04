@@ -160,13 +160,15 @@ transition: 0.7s;
     color: black;
     transition: 0.7s;
     letter-spacing: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .portfolio:hover {
     color: white;
-    letter-spacing: 0.5px;
+    letter-spacing: 3px;
 }
 
-.jul {
+.real {
     letter-spacing: 1px;
 }
