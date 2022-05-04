@@ -39,6 +39,7 @@ body {
     justify-content: center;
     margin-top: 35px;
 }
+
 .item-shop-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -90,10 +91,8 @@ transition: 0.7s;
     background-color: #e0e3e2;
     color: black;
     border: 1px solid black;
-
+    letter-spacing: 3px;
 }
-
-
         
 /* ////GALLERY///// */
 .galerie {
@@ -105,6 +104,7 @@ transition: 0.7s;
     margin: 40px auto 0;
     /* margin: 70px auto 0; */
 }
+
 .item {
     width: 360px;
     height: 445px;
@@ -118,9 +118,22 @@ transition: 0.7s;
     width: 100%;
     height: auto;
 }
+
 .imgg {
     width: 560px;
 }
+
+.test {
+    width: 100%;
+    height: auto;
+    background: url(Casquette-rose.png);
+    background-repeat: no-repeat;
+}
+.test:hover {
+    background: url(Casquettebleu.png);
+}
+
+
 .item-info {
     background-color:#e0e3e2;
     width: 365px;
@@ -134,7 +147,6 @@ transition: 0.7s;
     padding-left: 34px;
     padding-top: 15px;
 }
-
 
 .item-info-price {
     font-size: 20px;
