@@ -137,15 +137,7 @@ transition: 0.7s;
     width: 560px;
 }
 
-.test {
-    width: 100%;
-    height: auto;
-    background: url(Casquette-rose.png);
-    background-repeat: no-repeat;
-}
-.test:hover {
-    background: url(Casquettebleu.png);
-}
+
 
 
 .item-info {
